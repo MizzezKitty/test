@@ -1,0 +1,60 @@
+$fontColour:#61115d;
+$backgroundColour:#fcef8b;
+
+p{
+    margin: 10%;
+}
+
+ul{
+    margin: 10%;
+}
+
+ul li{
+    color:$fontColour;
+}
+
+table{
+    margin: 10%;
+    @media (max-width:700px) {
+        transform: rotate(270deg);
+        margin-top: 30%;
+        
+        
+    }
+}
+
+th, td{
+    color:$fontColour;
+    text-align: center;
+    padding: 5px;
+    
+   
+}
+
+.nav-link:hover{
+    background-color:yellow;
+}
+
+.navbar{
+    background-color:#ed8eec; 
+    a{
+        color: black;
+    }   
+}
+
+
+
+body{
+    background-color:$backgroundColour;
+}
+%imgFormat{
+    width: 90%;
+}
+.row img{
+    @extend%imgFormat;
+    margin: 5%;
+}
+
+#intro{
+    font-size:60px;
+}
